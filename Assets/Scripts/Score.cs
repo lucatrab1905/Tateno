@@ -9,6 +9,11 @@ public class Score : MonoBehaviour
     public int currentScore = 0;
     public TextMeshProUGUI scoreText; // Reference to the TextMeshPro UI element
 
+    private void Start()
+    {
+        currentScore = 0;
+    }
+
     void Awake()
     {
         // Ensure there's only one instance of this script

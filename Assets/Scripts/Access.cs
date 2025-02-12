@@ -33,7 +33,7 @@ public class Access : MonoBehaviour
                 return;
             }
 
-            LoadScore();
+            //LoadScore();
         }
         catch (Exception e)
         {
